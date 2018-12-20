@@ -1,3 +1,17 @@
-h1{
-  color: red;
+body {
+  background-image: url("../scss/aga-putra-124580-unsplash.jpg");
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 40vw;
+  margin-left: 2vw;
+}
+.container a {
+  color: white;
+  font-size: 3vw;
+}
+
+/*# sourceMappingURL=style.css.map */
