@@ -1,0 +1,14 @@
+// .fa-bars{
+//   color: white;
+// }
+nav {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 6;
+  font-size: 30px;
+  color: #9e9e9e
+}
