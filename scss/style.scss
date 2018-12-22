@@ -1,15 +1,72 @@
-body{
-  background-image:url("../scss/images/tsai-tasipoo-507176-unsplash.jpg");
-  background-position: center;
+$home-font: 'Oswald', sans-serif;
+.home-content{
+  // background-image:url("../scss/images/tsai-tasipoo-507176-unsplash.jpg");
+  // background-position: center;
+  background-color: black;
+  width:100%;
+  padding-top: 45vh;
+  height: 55vh;
+  // opacity: 0.5;
 }
-.container{
-  display: flex;
-   justify-content: center;
-   justify-content: space-between;
-   padding: 40vw;
-   margin-left:2vw;
-  a{
+.about{
+  background-color: white;
+  width:100%;
+  padding-top: 45vh;
+  height: 55vh;
+  color: black
+}
+// .container{
+//   display: flex;
+//    justify-content: center;
+//    justify-content: space-between;
+//    padding: 40vw;
+//    margin-left:2vw;
+//   a{
+//     color: white;
+//     font-size: 3vw;
+//   }
+// }
+.line-1,.line2{
+    position: relative;
+    width:0;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
     color: white;
-    font-size: 3vw;
-  }
+    font-family: $home-font;
+}
+.anim-typewriter{
+  animation: typewriter 2s steps(20) 1s 1 normal both,
+             // blinkTextCursor 500ms steps(44) infinite normal;
+             // blinkTextCursor 500ms steps(44);
+}
+@keyframes typewriter{
+  0%{width: 0;}
+  99%{width: 6.8em;}
+  100%{width: 6.8em; border-width:0;}
+  99%{width: 6.8em;}
+  0%{width: 0;}
+
+}
+// @keyframes blinkTextCursor{
+//   from{border-right-color: rgba(255,255,255,.75);}
+//   to{border-right-color: transparent;}
+// }
+.home-content{
+  padding-left:40vw;
+  padding-top:40vh;
+}
+.line2{
+  width:200px;
+  font-size:34px;
+}
+.line2.anim-typewriter{
+  animation: typewriter2 2s steps(20) 4.8s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter2{
+  0%{width: 0;opacity:0;}
+  2%{width: 0;opacity:1;}
+  100%{width: 14.5em;}
 }
