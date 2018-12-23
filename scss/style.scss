@@ -1,15 +1,11 @@
 @import "components/variable";
-@import "pages/home";
 @import "components/nav";
+@import "pages/home";
+@import "pages/about";
+@import "pages/project";
 
 
-.about{
-  background-color: white;
-  width:100%;
-  padding-top: 49.5vh;
-  height: 55vh;
-  color: black
-}
+
 // .container{
 //   display: flex;
 //    justify-content: center;
@@ -21,3 +17,13 @@
 //     font-size: 3vw;
 //   }
 // }
+body {
+    width: 100%;
+    // height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+}

@@ -1,69 +1,3 @@
-.home-content {
-  background-color: black;
-  width: 100%;
-  padding-top: 45vh;
-  height: 58vh;
-}
-
-.line-1, .line2 {
-  position: relative;
-  width: 0;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  white-space: nowrap;
-  overflow: hidden;
-  color: white;
-  font-family: "Oswald", sans-serif;
-}
-
-.anim-typewriter {
-  animation: typewriter 2s steps(20) 1s 1 normal both;
-}
-
-@keyframes typewriter {
-  0% {
-    width: 0;
-  }
-  99% {
-    width: 6.8em;
-  }
-  100% {
-    width: 6.8em;
-    border-width: 0;
-  }
-  99% {
-    width: 6.8em;
-  }
-  0% {
-    width: 0;
-  }
-}
-.home-content {
-  padding-left: 40vw;
-  padding-top: 40vh;
-}
-
-.line2 {
-  width: 200px;
-  font-size: 34px;
-}
-
-.line2.anim-typewriter {
-  animation: typewriter2 2s steps(20) 4.8s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
-}
-
-@keyframes typewriter2 {
-  0% {
-    width: 0;
-    opacity: 0;
-  }
-  2% {
-    width: 0;
-    opacity: 1;
-  }
-  100% {
-    width: 14.5em;
-  }
-}
 nav {
   height: 110px;
   display: flex;
@@ -76,12 +10,78 @@ nav {
   color: #9e9e9e;
 }
 
+.home-content {
+  background-color: black;
+  padding-top: 45vh;
+  height: 62vh;
+}
+
+.hello {
+  color: white;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+}
+
+.line {
+  position: relative;
+  width: 0;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.anim-typewriter {
+  animation: typewriter 5s steps(30, end) 1s infinite;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 6.8em;
+  }
+  50% {
+    width: 15em;
+  }
+  75% {
+    width: 25em;
+  }
+  100% {
+    width: 0em;
+  }
+}
+.home-content {
+  padding-left: 40vw;
+  padding-top: 40vh;
+}
+
 .about {
   background-color: white;
-  width: 100%;
+  width: 80%;
   padding-top: 49.5vh;
   height: 55vh;
   color: black;
+}
+
+.project {
+  background-color: white;
+  width: 80%;
+  padding-top: 49.5vh;
+  height: 55vh;
+  color: black;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
