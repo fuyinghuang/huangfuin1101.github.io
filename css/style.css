@@ -11,7 +11,7 @@ nav {
 }
 
 .home-content {
-  background-color: black;
+  background-color: #000000d9;
   padding-top: 45vh;
   height: 62vh;
 }
@@ -59,11 +59,11 @@ nav {
 }
 
 .about {
-  background-color: white;
-  width: 80%;
+  background-color: #000000d9;
+  width: 100%;
   padding-top: 49.5vh;
   height: 55vh;
-  color: black;
+  color: white;
 }
 
 .project {
