@@ -17,31 +17,48 @@
     </div> -->
 
     <section class="home-content">
-      <nav>
-        <div class="nav">
-          <i class="fas fa-bars nav-toggle"></i>
-          <!-- <h1 class="link">about</h1>
-          <h1 class="link">contact</h1> -->
+
+        <!-- The overlay -->
+
+          <i onclick="openNav()" class="fas fa-bars nav-toggle"></i>
+        <!-- <span onclick="openNav()">open</span> -->
+        <div id="myNav" class="overlay">
+
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+
         </div>
-      </nav>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+
+
       <h1 class="hello">Hello World !</h1>
       <h2 class="line anim-typewriter">My Name is FU YING HUANG. A Web Developer...</h2>
     </section>
     <section class="project">
-      <h2>project</h2>
+      <h2></h2>
     </section>
 
 
     <section class="about">
-      <h2>about</h2>
+      <h2></h2>
     </section>
     <section class="contact">
-      <h2>about</h2>
+      <h2></h2>
     </section>
 
 
 
 
     <script src="js/app.js" charset="utf-8"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   </body>
 </html>
