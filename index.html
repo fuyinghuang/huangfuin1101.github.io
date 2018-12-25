@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="shortcut icon" href="./scss/images/favicon.ico" type="image/vnd.microsoft.icon" >
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <title>FU YING HUANG</title>
   </head>
   <body>
@@ -16,35 +17,63 @@
       lto:dorisfuying.huang@gmail.com"><i class="fas fa-envelope"></i></a></h1>
     </div> -->
 
-    <section id="home"class="home-content">
-
+    <section id="home-page"class="home-content">
         <!-- The overlay -->
-
-          <i onclick="openNav()" class="fas fa-bars nav-toggle"></i>
-        <!-- <span onclick="openNav()">open</span> -->
-        <div id="myNav" class="overlay">
-
+        <i onclick="openNav()" class="fas fa-bars nav-toggle"></i>
+        <div id="navBar" class="overlay">
           <!-- Button to close the overlay navigation -->
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
           <!-- Overlay content -->
           <div class="overlay-content">
-            <a onclick="link()" href="#home">Home</a>
-            <a onclick="link()" href="#project-page">Project</a>
-            <a onclick="link()" href="#about-page">About</a>
-            <a onclick="link()" href="#contact-page">Contact</a>
+            <a onclick="link()" href="#home-page">HOME</a>
+            <a onclick="link()" href="#project-page">PROJECT</a>
+            <a onclick="link()" href="#about-page">ABOUT</a>
+            <a onclick="link()" href="#contact-page">CONTACT</a>
           </div>
-
         </div>
-
-        <!-- Use any element to open/show the overlay navigation menu -->
-
-
       <h1 class="hello">Hello World !</h1>
       <h2 class="line anim-typewriter">My Name is FU YING HUANG. A Web Developer...</h2>
     </section>
     <section id="project-page"class="project">
       <h2></h2>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">1 / 4</div> -->
+          <img src="./scss/images/projects/galaxy.gif" style="width:100%">
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">2 / 4</div> -->
+          <img src="./scss/images/projects/handmade.jpg" style="width:100%">
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">3 / 4</div> -->
+          <img src="./scss/images/projects/aldojo.png" style="width:100%">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">4 / 4</div> -->
+          <img src="./scss/images/projects/dorisella.gif" style="width:100%">
+          <!-- <div class="text">Caption Four</div> -->
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <!-- The dots/circles -->
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
     </section>
 
 
@@ -52,7 +81,13 @@
       <h2></h2>
     </section>
     <section id="contact-page"class="contact">
-      <h2></h2>
+      <h2 class="contact-title">CONTACT</h2>
+      <div class="container">
+        <h1><a href="https://github.com/huangfuin1101s"><i class="fab fa-github"></i></a></h1>
+        <h1><a href="https://www.linkedin.com/in/fuyinghuang/"><i class="fab fa-linkedin"></i></a></h1>
+        <h1><a href="mai
+        lto:dorisfuying.huang@gmail.com"><i class="fas fa-envelope"></i></a></h1>
+      </div>
     </section>
 
 
