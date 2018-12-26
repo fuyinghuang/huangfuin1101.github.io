@@ -229,7 +229,7 @@
   color: white;
   font-size: 25px;
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 20%;
   transform: translate(-50%, -50%);
   text-align: left;
@@ -238,20 +238,69 @@
   letter-spacing: 3px;
 }
 
-#concept {
+.project-four {
   color: white;
   font-size: 18px;
   width: 50%;
-  height: 20%;
-  top: 50%;
+  height: 22%;
+  top: 48%;
   left: 35%;
-  letter-spacing: 3.5px;
+  letter-spacing: 3px;
   line-height: 1.5;
   font-weight: normal;
 }
 
 .project-link {
   color: white;
+}
+
+.project-three {
+  color: white;
+  font-size: 17.5px;
+  width: 50%;
+  height: 20%;
+  top: 43%;
+  left: 36%;
+  letter-spacing: 2.6px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.title-three {
+  top: 25%;
+}
+
+.project-two {
+  color: white;
+  font-size: 17px;
+  width: 50%;
+  height: 20%;
+  top: 45%;
+  left: 36%;
+  letter-spacing: 2.5px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.title-two {
+  top: 27%;
+  left: 30%;
+}
+
+.project-one {
+  font-size: 18px;
+  width: 50%;
+  height: 20%;
+  top: 50%;
+  left: 36%;
+  letter-spacing: 3.5px;
+  line-height: 1.8;
+  font-weight: normal;
+}
+
+.title-one {
+  top: 30%;
+  left: 24%;
 }
 
 .contact {
