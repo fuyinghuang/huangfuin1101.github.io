@@ -152,6 +152,7 @@
   transform: translate(-50%, -50%);
   text-align: left;
   font-family:$nav-font;
+  font-weight: bold;
   letter-spacing: 3px;
 }
 #concept{
@@ -163,4 +164,8 @@
   left: 35%;
   letter-spacing: 3.5px;
   line-height: 1.5;
+  font-weight: normal;
+}
+.project-link{
+  color: white;
 }
