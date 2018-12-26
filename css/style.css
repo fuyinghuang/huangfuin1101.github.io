@@ -140,18 +140,9 @@
 
 .project {
   background-color: white;
-  padding-top: 45vh;
+  padding-top: 48vh;
   height: 62vh;
   color: black;
-}
-
-.project-title {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  margin-left: 45vw;
-  margin-top: -28vh;
-  text-align: right;
 }
 
 /* Slideshow container */
@@ -170,6 +161,10 @@
 /* Next & previous buttons */
 /* Position the "next button" to the right */
 /* On hover, add a black background color with a little bit see-through */
+.dots {
+  text-align: center;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -188,20 +183,10 @@
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -219,20 +204,54 @@
     display: block;
   }
 }
+.contain {
+  position: relative;
+}
+
+.over {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000d9;
+}
+
+.contain:hover .over {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+}
+
+#concept {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  height: 20%;
+  top: 70%;
+  left: 50%;
+}
+
 .contact {
-  background-color: #white;
+  background-color: white;
   width: 100%;
   padding-top: 13vh;
   height: 40vh;
   color: white;
-}
-
-.contact-title {
-  color: black;
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  margin-left: 45vw;
-  padding-top: 10vh;
 }
 
 .container {

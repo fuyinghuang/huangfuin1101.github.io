@@ -1,18 +1,17 @@
 .contact{
-  background-color: #white;
+  background-color: white;
   width:100%;
-    // min-height: 600px;
   padding-top: 13vh;
   height: 40vh;
   color: white;
 }
-.contact-title{
-  color: black;
-  font-family: $nav-font;
-  font-size: 30px;
-  margin-left: 45vw;
-  padding-top: 10vh;
-}
+// .contact-title{
+//   color: black;
+//   font-family: $nav-font;
+//   font-size: 30px;
+//   margin-left: 45vw;
+//   padding-top: 10vh;
+// }
 .container{
   display: flex;
    justify-content: center;
@@ -20,7 +19,6 @@
    padding: 35vw;
    margin-top: -20em;
    margin-left:2vw;
-   // top:auto;
   a{
     color: black;
     font-size: 3vw;
@@ -31,7 +29,7 @@
   background-color: white;
   overflow: hidden;
   margin-top: 408px;
-height: 15%;
+  height: 15%;
   // color: black;
   justify-content: center;
   justify-content: space-between;
