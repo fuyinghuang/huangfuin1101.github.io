@@ -138,6 +138,11 @@
   color: white;
 }
 
+.about-title {
+  color: white;
+  text-align: center;
+}
+
 .project {
   background-color: white;
   padding-top: 48vh;
@@ -150,7 +155,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-top: -20vh;
+  margin-top: -25vh;
 }
 
 .project-image {
@@ -219,10 +224,6 @@
   opacity: 0;
   transition: 0.5s ease;
   background-color: #000000d9;
-}
-
-.contain:hover .over {
-  opacity: 0.8;
 }
 
 .text {
