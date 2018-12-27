@@ -304,6 +304,11 @@
   left: 24%;
 }
 
+@media screen and (max-width: 450px) {
+  .project-one .project-two {
+    font-size: 12px;
+  }
+}
 .contact {
   background-color: white;
   width: 100%;
