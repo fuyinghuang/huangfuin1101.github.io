@@ -1,22 +1,29 @@
 .contact-title{
-  font-size: 30px;
   color: white;
-  padding-left: 13vw;
   font-family: $home-font;
-  margin-top: 6vh;
-  margin-left: 9vh;
+  margin-top: 11vh;
   letter-spacing: .5em;
-}
-
-.contact-title::first-letter {
-  font-size: 130%
+  font-size: 20px;
+  text-align: center;
+  margin-right: 2vw;
 }
 .contacts a{
-  margin-left: 45px;
-  padding: 0.08em;
+  font-size: 20px;
   color: #9e9e9e;
-  font-size: 0.9em;
   &:hover{
     color: white;
   }
+}
+.dash, .dash2{
+  width: 12vw;
+  height: 1px;
+  background: white;
+  position: absolute;
+  margin-left: -18vw;
+  margin-top: 1.5vh;
+}
+.dash2{
+  width: 12vw;
+  margin-left: 4vw;
+  margin-top: 1.5vh;
 }
