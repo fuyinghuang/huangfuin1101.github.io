@@ -1,49 +1,22 @@
-.contact{
-  background-color: white;
-  width:100%;
-  padding-top: 13vh;
-  height: 40vh;
+.contact-title{
+  font-size: 30px;
   color: white;
+  padding-left: 13vw;
+  font-family: $home-font;
+  margin-top: 6vh;
+  margin-left: 9vh;
+  letter-spacing: .5em;
 }
-// .contact-title{
-//   color: black;
-//   font-family: $nav-font;
-//   font-size: 30px;
-//   margin-left: 45vw;
-//   padding-top: 10vh;
-// }
-.container{
-  display: flex;
-   justify-content: center;
-   justify-content: space-between;
-   padding: 35vw;
-   margin-top: -20em;
-   margin-left:2vw;
-  a{
-    color: black;
-    font-size: 3vw;
-  }
+
+.contact-title::first-letter {
+  font-size: 130%
 }
-.footer{
-  // background-color: #333;
-  background-color: white;
-  overflow: hidden;
-  margin-top: 408px;
-  height: 15%;
-  // color: black;
-  justify-content: center;
-  justify-content: space-between;
-  justify-content: space-between;
-  // padding: 20vw;
-  a{
-    color: #000000d9;
-    font-size: 1em;
-    float: right;
-  display: block;
-  // color: #f2f2f2;
-  // text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.contacts a{
+  margin-left: 45px;
+  padding: 0.08em;
+  color: #9e9e9e;
+  font-size: 0.9em;
+  &:hover{
+    color: white;
   }
 }

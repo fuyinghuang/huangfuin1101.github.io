@@ -7,24 +7,25 @@
   color: white;
 }
 .about-title{
-  font-size: 4em;
+  font-size: 60px;
   color: white;
-  padding-left: 12.5em;
+  padding-left: 60vw;
   font-family: $home-font;
-  margin-top: -20vh;
+  margin-top: -23vh;
   letter-spacing: .3em;
 }
 .about-content{
-width: 60%;
+  width: 60%;
   font-size: 19px;
   // text-align: center;
   // font-family: $home-font;
   text-align: justify;
   letter-spacing: .14em;
-  padding-left: 14vw;
+  padding-left: 18vw;
   padding-right: 10vw;
   white-space: normal;
   font-family: $about-font;
+
 
 }
 .about-title::first-letter {

@@ -139,11 +139,11 @@
 }
 
 .about-title {
-  font-size: 4em;
+  font-size: 60px;
   color: white;
-  padding-left: 12.5em;
+  padding-left: 60vw;
   font-family: "Roboto", sans-serif;
-  margin-top: -20vh;
+  margin-top: -23vh;
   letter-spacing: 0.3em;
 }
 
@@ -152,7 +152,7 @@
   font-size: 19px;
   text-align: justify;
   letter-spacing: 0.14em;
-  padding-left: 14vw;
+  padding-left: 18vw;
   padding-right: 10vw;
   white-space: normal;
   font-family: "Catamaran", sans-serif;
@@ -318,44 +318,28 @@
     font-size: 12px;
   }
 }
-.contact {
-  background-color: white;
-  width: 100%;
-  padding-top: 13vh;
-  height: 40vh;
+.contact-title {
+  font-size: 30px;
   color: white;
+  padding-left: 13vw;
+  font-family: "Roboto", sans-serif;
+  margin-top: 6vh;
+  margin-left: 9vh;
+  letter-spacing: 0.5em;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  padding: 35vw;
-  margin-top: -20em;
-  margin-left: 2vw;
-}
-.container a {
-  color: black;
-  font-size: 3vw;
+.contact-title::first-letter {
+  font-size: 130%;
 }
 
-.footer {
-  background-color: white;
-  overflow: hidden;
-  margin-top: 408px;
-  height: 15%;
-  justify-content: center;
-  justify-content: space-between;
-  justify-content: space-between;
+.contacts a {
+  margin-left: 45px;
+  padding: 0.08em;
+  color: #9e9e9e;
+  font-size: 0.9em;
 }
-.footer a {
-  color: #000000d9;
-  font-size: 1em;
-  float: right;
-  display: block;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.contacts a:hover {
+  color: white;
 }
 
 body {
