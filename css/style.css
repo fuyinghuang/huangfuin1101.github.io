@@ -139,8 +139,27 @@
 }
 
 .about-title {
+  font-size: 4em;
   color: white;
-  text-align: center;
+  padding-left: 12.5em;
+  font-family: "Roboto", sans-serif;
+  margin-top: -20vh;
+  letter-spacing: 0.3em;
+}
+
+.about-content {
+  width: 60%;
+  font-size: 19px;
+  text-align: justify;
+  letter-spacing: 0.14em;
+  padding-left: 14vw;
+  padding-right: 10vw;
+  white-space: normal;
+  font-family: "Catamaran", sans-serif;
+}
+
+.about-title::first-letter {
+  font-size: 130%;
 }
 
 .project {
@@ -150,7 +169,6 @@
   color: black;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -239,9 +257,9 @@
   letter-spacing: 3px;
 }
 
-.project-four {
+.project-four, .project-three, .project-two, .project-one {
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   width: 50%;
   height: 22%;
   top: 48%;
@@ -256,31 +274,23 @@
 }
 
 .project-three {
-  color: white;
   font-size: 17.5px;
-  width: 50%;
-  height: 20%;
-  top: 43%;
+  top: 39%;
   left: 36%;
   letter-spacing: 2.6px;
-  line-height: 1.5;
-  font-weight: normal;
+  line-height: 1.6;
 }
 
 .title-three {
-  top: 25%;
+  top: 20%;
 }
 
 .project-two {
-  color: white;
   font-size: 17px;
-  width: 50%;
-  height: 20%;
   top: 45%;
   left: 36%;
   letter-spacing: 2.5px;
   line-height: 1.5;
-  font-weight: normal;
 }
 
 .title-two {
@@ -296,7 +306,6 @@
   left: 36%;
   letter-spacing: 3.5px;
   line-height: 1.8;
-  font-weight: normal;
 }
 
 .title-one {
@@ -305,7 +314,7 @@
 }
 
 @media screen and (max-width: 450px) {
-  .project-one .project-two {
+  .project-one {
     font-size: 12px;
   }
 }
