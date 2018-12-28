@@ -11,22 +11,23 @@
   color: white;
   padding-left: 60vw;
   font-family: $home-font;
-  margin-top: -23vh;
+  margin-top: -28vh;
   letter-spacing: .3em;
 }
 .about-content{
   width: 60%;
   font-size: 19px;
-  // text-align: center;
-  // font-family: $home-font;
   text-align: justify;
   letter-spacing: .14em;
   padding-left: 18vw;
   padding-right: 10vw;
   white-space: normal;
   font-family: $about-font;
-
-
+  margin-top: -2.5vh;
+}
+#about-overflow{
+  height: 28vh;
+  overflow: auto;
 }
 .about-title::first-letter {
   font-size: 130%

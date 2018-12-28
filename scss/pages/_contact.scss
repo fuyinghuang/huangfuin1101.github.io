@@ -1,7 +1,7 @@
 .contact-title{
   color: white;
   font-family: $home-font;
-  margin-top: 11vh;
+  margin-top: 15vh;
   letter-spacing: .5em;
   font-size: 20px;
   text-align: center;
@@ -15,15 +15,15 @@
   }
 }
 .dash, .dash2{
-  width: 12vw;
+  width: 20vw;
   height: 1px;
   background: white;
   position: absolute;
-  margin-left: -18vw;
+  margin-left: -25vw;
   margin-top: 1.5vh;
 }
 .dash2{
-  width: 12vw;
-  margin-left: 4vw;
+  // width: 12vw;
+  margin-left: 4.5vw;
   margin-top: 1.5vh;
 }
