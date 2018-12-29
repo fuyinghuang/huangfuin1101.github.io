@@ -332,12 +332,8 @@
     width: 100%;
   }
 
-  .project-four, .project-three, .project-two, .project-one {
-    width: 80%;
-  }
-
   .text {
-    font-size: 6.5px;
+    font-size: 7.5px;
   }
 
   .slideshow-container {
@@ -396,10 +392,6 @@
 
   .dash, .dash2 {
     margin-top: 0.75vh;
-  }
-
-  .text {
-    font-size: 12px;
   }
 }
 .skill-title {
