@@ -360,6 +360,10 @@
 
 @media screen and (max-width: 450px) {
   .contact-title {
+    font-size: 10px;
+  }
+
+  .contacts a {
     font-size: 12px;
   }
 }
