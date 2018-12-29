@@ -56,7 +56,7 @@
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (max-width: 600px), screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
   }
@@ -111,15 +111,15 @@
     width: 0em;
   }
 }
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-width: 450px) {
   .hello {
     font-size: 30px;
-    margin-right: 5vw;
+    margin-left: -10vw;
   }
 
   .line {
     font-size: 11px;
-    margin-right: 10vw;
+    margin-left: -10vw;
   }
 
   .home-content {
@@ -164,13 +164,21 @@
   font-size: 130%;
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-width: 450px) {
   .about-title {
     font-size: 20px;
+    margin-top: -22vh;
   }
 
   .about-content {
     font-size: 10px;
+    max-width: 100%;
+    margin-top: 3vh;
+    max-width: 70%;
+  }
+
+  .about {
+    height: 100%;
   }
 }
 .project {
@@ -405,6 +413,12 @@
 
   .tech {
     font-size: 8px;
+  }
+
+  .skill-content {
+    font-size: 12px;
+    padding: -1px;
+    line-height: 1.5;
   }
 }
 body {

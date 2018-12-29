@@ -41,14 +41,14 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-width: 450px) {
   .hello{
     font-size: 30px;
-    margin-right: 5vw;
+    margin-left: -10vw;
   }
   .line{
     font-size: 11px;
-    margin-right: 10vw;
+    margin-left: -10vw;
   }
   .home-content{
     width:100%;
