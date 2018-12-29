@@ -174,9 +174,9 @@
   top: 30%;
   left: 24%;
 }
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-width: 450px) {
   .project-one, .project-two, .project-three, .project-four {
-    font-size: 10px;
+    font-size: 8px;
     // width:100px;
   }
   .slideshow-container {
@@ -186,7 +186,7 @@
     display: block;
   }
   .title-one, .title-two, .title-three, .title-four{
-    font-size: 14px;
+    font-size: 10px;
   }
   .project{
     width:100%;
