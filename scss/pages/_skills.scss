@@ -1,4 +1,4 @@
-.skill-title{
+.skill-title {
   font-size: 28px;
   color: white;
   padding-left: 18vw;
@@ -7,37 +7,33 @@
   letter-spacing: .2em;
 }
 
-.skill-content{
+.skill-content {
   color: #9e9e9e;
-  height: 3vh;
   font-size: 19px;
-  letter-spacing: .12em;
+  letter-spacing: .18em;
   margin-left: 18vw;
-  padding-right: 10vw;
-  padding: 1px;
+  margin-right: 20vw;
   white-space: normal;
   font-family: $about-font;
+  line-height: 2.2;
 }
 
-.tech{
-    font-size: 19px;
-    font-weight: normal;
-    font-family: $about-font;
-    padding-right: 4px;
+.tech {
+    padding-right: .3.5em;
     &:hover{
       color: white;
     }
 }
 @media only screen and (max-width: 600px), screen and (max-height: 450px) {
-  .skill-title{
+  .skill-title {
     font-size: 12px;
   }
-  .tech{
+  .tech {
     font-size: 8px;
-  }
-  .skill-content{
-    font-size: 12px;
     padding: -1px;
+  }
+  .skill-content {
+    font-size: 8px;
     line-height: 1.5;
   }
 }

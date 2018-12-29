@@ -1,4 +1,4 @@
-.contact-title{
+.contact-title {
   color: white;
   font-family: $home-font;
   margin-top: 10vh;
@@ -7,14 +7,14 @@
   text-align: center;
   margin-right: 2vw;
 }
-.contacts a{
+.contacts a {
   font-size: 20px;
   color: #9e9e9e;
   &:hover{
     color: white;
   }
 }
-.dash, .dash2{
+.dash, .dash2 {
   width: 20vw;
   height: 1px;
   background: white;
@@ -22,21 +22,20 @@
   margin-left: -25vw;
   margin-top: 1.5vh;
 }
-.dash2{
-  // width: 12vw;
+.dash2 {
   margin-left: 4.5vw;
   margin-top: 1.5vh;
 }
 @media only screen and (max-width: 600px), screen and (max-height: 450px) {
-  .contact-title{
+  .contact-title {
     font-size: 10px;
     padding-bottom: 10vh;
   }
-  .contacts a{
+  .contacts a {
     font-size: 12px;
   }
-  .dash, .dash2{
+  .dash, .dash2 {
     margin-top: 0.75vh;
-    width: 10vw;
+    width: 15vw;
   }
 }

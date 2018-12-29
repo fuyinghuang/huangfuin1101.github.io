@@ -336,12 +336,26 @@
     font-size: 7.5px;
   }
 
+  .project-three {
+    font-size: 6.8px;
+    top: 43%;
+  }
+
+  .project-four {
+    top: 42%;
+  }
+
+  .title-three, .title-four {
+    top: 18%;
+  }
+
   .slides {
     display: block;
   }
 
   .title-one, .title-two, .title-three, .title-four {
     font-size: 9px;
+    left: 50%;
   }
 }
 .contact-title {
@@ -388,7 +402,7 @@
 
   .dash, .dash2 {
     margin-top: 0.75vh;
-    width: 10vw;
+    width: 15vw;
   }
 }
 .skill-title {
@@ -402,21 +416,17 @@
 
 .skill-content {
   color: #9e9e9e;
-  height: 3vh;
   font-size: 19px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.18em;
   margin-left: 18vw;
-  padding-right: 10vw;
-  padding: 1px;
+  margin-right: 20vw;
   white-space: normal;
   font-family: "Catamaran", sans-serif;
+  line-height: 2.2;
 }
 
 .tech {
-  font-size: 19px;
-  font-weight: normal;
-  font-family: "Catamaran", sans-serif;
-  padding-right: 4px;
+  padding-right: 0.3 0.5em;
 }
 .tech:hover {
   color: white;
@@ -429,11 +439,11 @@
 
   .tech {
     font-size: 8px;
+    padding: -1px;
   }
 
   .skill-content {
-    font-size: 12px;
-    padding: -1px;
+    font-size: 8px;
     line-height: 1.5;
   }
 }

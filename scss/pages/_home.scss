@@ -1,16 +1,16 @@
-.home-content{
+.home-content {
   background-color: #000000d9;
   padding-top: 45vh;
   height: 62vh;
   padding-left:40vw;
   padding-top:40vh;
 }
-.hello{
+.hello {
   color: white;
   font-size: 60px;
   font-family: $home-font;
 }
-.line{
+.line {
   position: relative;
   width:0;
   border-right: 2px solid rgba(255,255,255,.75);
@@ -20,37 +20,37 @@
   // position: absolute;
   font-family: $home-font;
 }
-.anim-typewriter{
+.anim-typewriter {
   animation: typewriter 5s steps(30, end) 1s infinite;
 }
-@keyframes typewriter{
-  0%{
+@keyframes typewriter {
+  0% {
     width: 0;
   }
-  25%
-  {width: 6.8em;
+  25% {
+    width: 6.8em;
   }
-  50%{
+  50% {
     width: 15em;
   }
-  75%{
+  75% {
     width: 25em;
   }
-  100%{
+  100% {
     width: 0em;
   }
 }
 
 @media only screen and (max-width: 600px), screen and (max-height: 450px) {
-  .hello{
+  .hello {
     font-size: 30px;
     margin-left: -13vw;
   }
-  .line{
+  .line {
     font-size: 11px;
     margin-left: -13vw;
   }
-  .home-content{
+  .home-content {
     width:100%;
   }
 }
