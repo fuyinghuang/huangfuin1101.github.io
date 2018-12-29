@@ -32,7 +32,7 @@
 .about-title::first-letter {
   font-size: 130%
 }
-@media only screen and (max-width: 600px), screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-height: 450px) {
   .about-title{
     font-size: 20px;
     margin-top: -22vh;

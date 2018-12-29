@@ -1,7 +1,6 @@
 function openNav() {
   document.getElementById('navBar').style.width = '100%';
 }
-//Close when someone clicks on the "x" symbol
 function closeNav() {
   document.getElementById('navBar').style.width = '0%';
 }
@@ -10,8 +9,7 @@ function link() {
 }
 
 
-
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -27,7 +25,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   const slides = document.getElementsByClassName('slides');
-  const dots = document.getElementsByClassName('dot');
+  // const dots = document.getElementsByClassName('dot');
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -43,7 +41,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = 'block';
   // dots[slideIndex-1].className += ' active';
 }
-
 
 
 

@@ -27,7 +27,7 @@
   margin-left: 4.5vw;
   margin-top: 1.5vh;
 }
-@media only screen and (max-width: 600px), screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-height: 450px) {
   .contact-title{
     font-size: 10px;
     padding-bottom: 10vh;

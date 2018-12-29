@@ -28,7 +28,7 @@
       color: white;
     }
 }
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-height: 450px) {
   .skill-title{
     font-size: 12px;
   }
