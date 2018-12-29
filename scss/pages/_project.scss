@@ -7,7 +7,6 @@
 
 .slideshow-container {
   max-width: 1000px;
-  // height: 50vh;
   position: relative;
   margin: auto;
   margin-top: -25vh
@@ -15,10 +14,6 @@
 .project-image {
   border-radius: 10px;
   opacity: 0.8;
-}
-.slides {
-  // display: none;
-  // margin-top: -1vh;
 }
 
 /* Next & previous buttons */
@@ -54,7 +49,6 @@
 .dots{
   text-align: center;
 }
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -70,22 +64,10 @@
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
-  // -webkit-animation-name: fade;
-  // -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-//
-// @-webkit-keyframes fade {
-//   from {
-//     opacity: .4
-//   }
-//   to {
-//     opacity: 1
-//   }
-// }
 
 @keyframes fade {
   from {
@@ -97,17 +79,6 @@
 }
 
 
-@media screen and (max-width: 450px) {
-  .slideshow-container {
-    max-width: 100%;
-    // position: relative;
-    // margin: auto;
-  }
-
-  .slides {
-    display: block;
-  }
-}
 .contain {
   position: relative;
   // width: 50%;
@@ -144,7 +115,7 @@
 
 .text {
   color: white;
-  font-size: 25px;
+  // font-size: 25px;
   position: absolute;
   top: 28%;
   left: 20%;
@@ -204,7 +175,20 @@
   left: 24%;
 }
 @media screen and (max-width: 450px) {
-  .project-one {
-    font-size: 12px;
+  .project-one, .project-two, .project-three, .project-four {
+    font-size: 10px;
+    // width:100px;
+  }
+  .slideshow-container {
+    max-width: 100%;
+  }
+  .slides {
+    display: block;
+  }
+  .title-one, .title-two, .title-three, .title-four{
+    font-size: 14px;
+  }
+  .project{
+    width:100%;
   }
 }

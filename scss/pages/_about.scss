@@ -32,3 +32,11 @@
 .about-title::first-letter {
   font-size: 130%
 }
+@media screen and (max-width: 450px) {
+  .about-title{
+    font-size: 20px;
+  }
+  .about-content{
+    font-size: 10px;
+  }
+}

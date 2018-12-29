@@ -1,10 +1,9 @@
 .home-content{
   background-color: #000000d9;
-  // min-width: 100%;
-// min-height: 62vh;
-
   padding-top: 45vh;
   height: 62vh;
+  padding-left:40vw;
+  padding-top:40vh;
 }
 .hello{
   color: white;
@@ -12,45 +11,47 @@
   font-family: $home-font;
 }
 .line{
-    position: relative;
-    width:0;
-    border-right: 2px solid rgba(255,255,255,.75);
-    white-space: nowrap;
-    overflow: hidden;
-    color: white;
-    font-family: $home-font;
+  position: relative;
+  width:0;
+  border-right: 2px solid rgba(255,255,255,.75);
+  // white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  // position: absolute;
+  font-family: $home-font;
 }
-
 .anim-typewriter{
   animation: typewriter 5s steps(30, end) 1s infinite;
 }
 @keyframes typewriter{
-  0%{width: 0;}
-  25%{width: 6.8em;}
-  50%{width: 15em;}
-  75%{width: 25em;}
-  100%{width: 0em;}
-}
-.home-content{
-  padding-left:40vw;
-  padding-top:40vh;
-}
-// .line2{
-//   width:200px;
-//   font-size:34px;
-// }
-// .line2.anim-typewriter{
-//   animation: typewriter2 4s steps(20) 4.8s normal both,
-//              blinkTextCursor 500ms steps(44) infinite normal;
-// }
-//
-// @keyframes typewriter2{
-//   0%{width: 0;opacity:0;}
-//   2%{width: 0;opacity:1;}
-//   100%{width: 14.5em;}
-// }
-@media screen and (max-height: 450px) {
-  .hello{
-    font-size: 20px;
+  0%{
+    width: 0;
   }
+  25%
+  {width: 6.8em;
+  }
+  50%{
+    width: 15em;
+  }
+  75%{
+    width: 25em;
+  }
+  100%{
+    width: 0em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hello{
+    font-size: 30px;
+    margin-right: 5vw;
+  }
+  .line{
+    font-size: 11px;
+    margin-right: 10vw;
+  }
+  .home-content{
+    width:100%;
+  }
+
 }
