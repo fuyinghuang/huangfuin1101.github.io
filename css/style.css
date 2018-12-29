@@ -345,8 +345,16 @@
     top: 42%;
   }
 
+  .project-one {
+    top: 45%;
+  }
+
   .title-three, .title-four {
     top: 18%;
+  }
+
+  .title-one, .title-two {
+    top: 22%;
   }
 
   .slides {
