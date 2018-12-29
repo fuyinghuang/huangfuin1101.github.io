@@ -194,7 +194,6 @@
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -210,7 +209,6 @@
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -222,15 +220,6 @@
   }
   to {
     opacity: 1;
-  }
-}
-@media screen and (max-width: 450px) {
-  .slideshow-container {
-    max-width: 100%;
-  }
-
-  .slides {
-    display: block;
   }
 }
 .contain {
@@ -320,8 +309,16 @@
 }
 
 @media screen and (max-width: 450px) {
-  .project-one {
+  .project-one, .project-two, .project-three, .project-four {
     font-size: 12px;
+  }
+
+  .slideshow-container {
+    max-width: 100%;
+  }
+
+  .slides {
+    display: block;
   }
 }
 .contact-title {
