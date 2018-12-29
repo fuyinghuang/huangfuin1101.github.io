@@ -11,18 +11,14 @@
 }
 
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
   position: fixed;
-  /* Stay in place */
   z-index: 3;
-  /* Sit on top */
   font-family: "Raleway", sans-serif;
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.95);
-  /* Black w/opacity */
   overflow-x: hidden;
   /* Disable horizontal scroll */
 }
@@ -31,13 +27,10 @@
 .overlay-content {
   position: relative;
   top: 25%;
-  /* 25% from the top */
   width: 100%;
-  /* 100% width */
   text-align: center;
   letter-spacing: 3px;
   margin-top: 40px;
-  /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* The navigation links inside the overlay */
@@ -47,9 +40,7 @@
   font-size: 36px;
   color: #818181;
   display: block;
-  /* Display block instead of inline */
   transition: 0.3s;
-  /* Transition effects on hover (color) */
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -65,7 +56,6 @@
   font-size: 60px;
 }
 
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
@@ -81,6 +71,8 @@
   background-color: #000000d9;
   padding-top: 45vh;
   height: 62vh;
+  padding-left: 40vw;
+  padding-top: 40vh;
 }
 
 .hello {
@@ -93,7 +85,6 @@
   position: relative;
   width: 0;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
-  white-space: nowrap;
   overflow: hidden;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -120,14 +111,19 @@
     width: 0em;
   }
 }
-.home-content {
-  padding-left: 40vw;
-  padding-top: 40vh;
-}
-
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .hello {
-    font-size: 20px;
+    font-size: 30px;
+    margin-right: 5vw;
+  }
+
+  .line {
+    font-size: 11px;
+    margin-right: 10vw;
+  }
+
+  .home-content {
+    width: 100%;
   }
 }
 .about {
@@ -168,6 +164,15 @@
   font-size: 130%;
 }
 
+@media screen and (max-width: 450px) {
+  .about-title {
+    font-size: 20px;
+  }
+
+  .about-content {
+    font-size: 10px;
+  }
+}
 .project {
   background-color: white;
   padding-top: 48vh;
@@ -194,7 +199,6 @@
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -210,7 +214,6 @@
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -222,15 +225,6 @@
   }
   to {
     opacity: 1;
-  }
-}
-@media screen and (max-width: 450px) {
-  .slideshow-container {
-    max-width: 100%;
-  }
-
-  .slides {
-    display: block;
   }
 }
 .contain {
@@ -320,8 +314,16 @@
 }
 
 @media screen and (max-width: 450px) {
-  .project-one {
+  .project-one, .project-two, .project-three, .project-four {
     font-size: 12px;
+  }
+
+  .slideshow-container {
+    max-width: 100%;
+  }
+
+  .slides {
+    display: block;
   }
 }
 .contact-title {
@@ -356,6 +358,11 @@
   margin-top: 1.5vh;
 }
 
+@media screen and (max-width: 450px) {
+  .contact-title {
+    font-size: 12px;
+  }
+}
 .skill-title {
   font-size: 28px;
   color: white;
@@ -387,6 +394,15 @@
   color: white;
 }
 
+@media screen and (max-width: 450px) {
+  .skill-title {
+    font-size: 12px;
+  }
+
+  .tech {
+    font-size: 8px;
+  }
+}
 body {
   width: 100%;
   margin: 0;
