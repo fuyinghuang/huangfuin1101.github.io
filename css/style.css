@@ -254,7 +254,6 @@
 
 .text {
   color: white;
-  font-size: 25px;
   position: absolute;
   top: 28%;
   left: 20%;
@@ -321,9 +320,9 @@
   left: 24%;
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-width: 450px) {
   .project-one, .project-two, .project-three, .project-four {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .slideshow-container {
@@ -332,6 +331,14 @@
 
   .slides {
     display: block;
+  }
+
+  .title-one, .title-two, .title-three, .title-four {
+    font-size: 10px;
+  }
+
+  .project {
+    width: 100%;
   }
 }
 .contact-title {
@@ -366,12 +373,21 @@
   margin-top: 1.5vh;
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px), screen and (max-width: 450px) {
   .contact-title {
     font-size: 10px;
+    padding-bottom: 10vh;
   }
 
   .contacts a {
+    font-size: 12px;
+  }
+
+  .dash, .dash2 {
+    margin-top: 0.75vh;
+  }
+
+  .text {
     font-size: 12px;
   }
 }
