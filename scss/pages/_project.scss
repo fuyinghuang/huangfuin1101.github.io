@@ -81,18 +81,8 @@
 
 .contain {
   position: relative;
-  // width: 50%;
-  // height: 500px;
-// background-color: red;
-// margin-top: -503px;
-// opacity: 0;
 }
 
-// .image {
-//   display: block;
-//   width: 100%;
-//   height: auto;
-// }
 
 .over {
   position: absolute;
@@ -115,7 +105,7 @@
 
 .text {
   color: white;
-  // font-size: 25px;
+  font-size: 24px;
   position: absolute;
   top: 28%;
   left: 20%;
@@ -174,9 +164,12 @@
   top: 30%;
   left: 24%;
 }
-@media only screen and (max-width: 600px), screen and (max-width: 450px) {
-  .project-one, .project-two, .project-three, .project-four {
-    font-size: 8px;
+@media only screen and (max-width: 600px), screen and (max-height: 450px) {
+  .project{
+    width:100%;
+  }
+  .project-four, .project-three, .project-two, .project-one {
+    font-size: .7em;
     // width:100px;
   }
   .slideshow-container {
@@ -186,7 +179,7 @@
     display: block;
   }
   .title-one, .title-two, .title-three, .title-four{
-    font-size: 10px;
+    font-size: .8em;
   }
   .project{
     width:100%;
