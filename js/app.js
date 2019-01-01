@@ -1,3 +1,5 @@
+console.log('Hi! Thank you for checking my portfolio. If you would like to get in touch, please contact me at dorisfuying.huang@gmail.com');
+
 function openNav() {
   document.getElementById('navBar').style.width = '100%';
 }
