@@ -92,6 +92,9 @@
 
 .anim-typewriter {
   animation: typewriter 5s steps(30, end) 1s infinite;
+  -webkit-animation: typewriter 5s steps(30, end) 1s infinite;
+  -moz-animation: typewriter 5s steps(30, end) 1s infinite;
+  -o-animation: typewriter 5s steps(30, end) 1s infinite;
 }
 
 @keyframes typewriter {
@@ -111,15 +114,66 @@
     width: 0em;
   }
 }
+@-webkit-keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 6.8em;
+  }
+  50% {
+    width: 15em;
+  }
+  75% {
+    width: 25em;
+  }
+  100% {
+    width: 0em;
+  }
+}
+@-moz-keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 6.8em;
+  }
+  50% {
+    width: 15em;
+  }
+  75% {
+    width: 25em;
+  }
+  100% {
+    width: 0em;
+  }
+}
+@-o-keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 6.8em;
+  }
+  50% {
+    width: 15em;
+  }
+  75% {
+    width: 25em;
+  }
+  100% {
+    width: 0em;
+  }
+}
 @media only screen and (max-width: 600px), screen and (max-height: 450px) {
   .hello {
     font-size: 30px;
-    margin-left: -13vw;
+    margin-left: -17vw;
   }
 
   .line {
     font-size: 11px;
-    margin-left: -13vw;
+    margin-left: -17vw;
   }
 
   .home-content {
