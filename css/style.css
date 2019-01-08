@@ -68,7 +68,7 @@
   }
 }
 .home-content {
-  background-color: #000000d9;
+  background-color: rgba(0, 0, 0, 0.85);
   padding-top: 45vh;
   height: 62vh;
   padding-left: 40vw;
@@ -181,7 +181,7 @@
   }
 }
 .about {
-  background-color: #000000d9;
+  background-color: rgba(0, 0, 0, 0.85);
   width: 100%;
   padding-top: 45vh;
   height: 58vh;
